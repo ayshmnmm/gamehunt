@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>GameHunt</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@2.15.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <!-- Primary Meta Tags -->
+<meta name="title" content="GameHunt">
+<meta name="description" content="A knowledge base and list of popular PC, Mobile and Console games">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gamehunt.pages.dev/">
+<meta property="og:title" content="GameHunt">
+<meta property="og:description" content="A knowledge base and list of popular PC, Mobile and Console games">
+<meta property="og:image" content="https://gamehunt.pages.dev/img/top.jpg">
+    <style>
+      html {scroll-behavior: smooth}
+      @media screen and (max-width:740px) { 
+      .search-click {
+          /* border: 0px solid #ccc; */
+          outline: none;
+          border-radius: 10px;
+          width: 50px;
+          height: 50px;
+          padding: 25px;
+          transition: all 0.2s;
+          background-image: url("data:image/svg+xml,%3Csvg class='w-6 h-6 text-gray-600' fill='currentColor' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z' /%3E%3C/svg%3E");
+          background-size: 50%;
+          background-repeat:no-repeat;
+          background-position: center center;
+          font-size: 0;
+          }
+      }
+      .search-click:focus {
+        background-color: white;
+        width: 300px;
+        /* padding-left: 50px; */
+        background-image: none;
+        font-size: inherit;
+      }
+  </style>
+</head>
+<body>
+  <div class="navbar sticky z-10 top-0 backdrop-filter backdrop-blur-lg">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a href="#about">About</a></li>
+            <li tabindex="0">
+              <a class="justify-between">
+                Games
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+              </a>
+              <ul class="p-2 bg-base-100">
+                <li><a href="/pc">PC</a></li>
+                <li><a href="/mobile">Mobile</a></li>
+                <li><a href="/console">Console</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost normal-case text-xl" href="/">
+          <div class="w-10 rounded-full">
+            <img class="w-8 rounded-full" src="img/logo.png" />
+          </div><div class="px-2">GameHunt</div></a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal p-0">
+          <li><a href="#about">About</a></li>
+          <li tabindex="0">
+            <a>
+              Games
+              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+            </a>
+            <ul class="p-2 bg-base-100">
+              <li><a href="/pc">PC</a></li>
+              <li><a href="/mobile">Mobile</a></li>
+              <li><a href="/console">Console</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+       <div class="navbar-end invisibl lg:visible">
+          <div class="form-control">
+            <form method="get" action="/search">
+              <input name="q" id="search" type="search" placeholder="Search" class="bg-opacity-0 border-none input input-bordered search-click" autocomplete="off"/>
+            </form>
+          </div>
+      </div> 
+    </div>
+
+
+    <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">404 Not Found :(</h1>
+            <a href="/"><button class="btn btn-accent btn-ghost mt-10">Go home</button></a>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
