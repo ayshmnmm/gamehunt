@@ -3038,8 +3038,16 @@ html {
   width: 100%;
 }
 
+.w-\[400\] {
+  width: 400;
+}
+
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .grid-flow-col {
