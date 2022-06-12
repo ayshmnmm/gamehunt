@@ -3277,32 +3277,20 @@ html {
   width: 2rem;
 }
 
-.w-\[400px\] {
-  width: 400px;
-}
-
-.w-full {
-  width: 100%;
-}
-
 .w-\[500px\] {
   width: 500px;
-}
-
-.w-\[800px\] {
-  width: 800px;
-}
-
-.w-\[600px\] {
-  width: 600px;
 }
 
 .w-\[700px\] {
   width: 700px;
 }
 
-.w-\[00px\] {
-  width: 00px;
+.w-full {
+  width: 100%;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .max-w-md {
@@ -3429,11 +3417,6 @@ html {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .pt-6 {
