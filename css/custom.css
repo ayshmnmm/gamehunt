@@ -21,12 +21,12 @@ html {
         background-position: center center;
         font-size: 0;
     }
+    .search-click:focus {
+        background-color: white;
+        width: 300px;
+        /* padding-left: 50px; */
+        background-image: none;
+        font-size: inherit;
+    }
 }
 
-.search-click:focus {
-    background-color: white;
-    width: 300px;
-    /* padding-left: 50px; */
-    background-image: none;
-    font-size: inherit;
-}
