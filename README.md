@@ -12,7 +12,7 @@
 
 ![Screenshot](img/screenshot.png)
 
-Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+GameHunt is a website created to list and provide information about the most popular PC, Mobile and console games.
 
 ## Contributing
 
