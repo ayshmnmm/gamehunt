@@ -8,7 +8,6 @@ html {
 
 @media screen and (max-width:740px) {
     .search-click {
-        /* border: 0px solid #ccc; */
         outline: none;
         border-radius: 10px;
         width: 50px;
@@ -24,7 +23,6 @@ html {
     .search-click:focus {
         background-color: white;
         width: 300px;
-        /* padding-left: 50px; */
         background-image: none;
         font-size: inherit;
     }
