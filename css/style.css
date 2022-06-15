@@ -3375,20 +3375,20 @@ html {
   width: 500px;
 }
 
-.w-\[600px\] {
-  width: 600px;
-}
-
-.w-\[700px\] {
-  width: 700px;
-}
-
 .w-80 {
   width: 20rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-\[700px\] {
+  width: 700px;
 }
 
 .w-\[400px\] {
@@ -3405,6 +3405,10 @@ html {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
@@ -3621,6 +3625,20 @@ html {
     width: 300px;
     background-image: none;
     font-size: inherit;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .md\:w-\[00px\] {
+    width: 00px;
+  }
+
+  .md\:w-\[600px\] {
+    width: 600px;
   }
 }
 
