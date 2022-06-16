@@ -10,14 +10,16 @@ let adtitle = ads[r]["title"];
 let adimg = ads[r]["img"];
 let adurl = ads[r]["url"];
 
-let rad = `<div class="modal-box flex flex-col w-80 md:w-[400px] justify-center" >
+let rad = `<div class="modal-box flex flex-col w-80 md:w-[400px] justify-center overflow-visible" >
+<div class="flex justify-between flex-row mb-2">
+<div class="flex flex-col justify-center ">
 <h3 class="font-bold text-lg" >AD: ${adtitle}</h3>
-<a href="${adurl}">
-<img src="${adimg}" class="w-full" alt="advert" i/>
-</a>
-<div class="modal-action">
+</div>
  <a class="btn" id="close-ad">close</a>
 </div>
+<a href="${adurl}">
+<img src="${adimg}" class="w-full " alt="advert" i/>
+</a>
 </div>`
 
 document.getElementById("ad-pop").innerHTML = rad;
