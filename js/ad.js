@@ -18,7 +18,7 @@ let rad = `<div class="modal-box flex flex-col w-80 md:w-[400px] justify-center 
  <a class="btn" id="close-ad">close</a>
 </div>
 <a href="${adurl}">
-<img src="${adimg}" class="w-full " alt="advert" i/>
+<img src="${adimg}" class="w-full" alt="advert" i/>
 </a>
 </div>`
 
